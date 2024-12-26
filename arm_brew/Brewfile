@@ -1,0 +1,65 @@
+### tap
+tap "homebrew/bundle" # brew bundle コマンド
+tap "homebrew/cask" # GUI アプリのインストール
+tap "homebrew/services" # brew service コマンド
+tap "homebrew/cask-fonts" # フォント
+tap "homebrew/cask-versions" # 異なるバージョンの cask
+
+### Casks
+cask "visual-studio-code" # 多機能テキストエディタ
+cask "notion" #Notion
+cask "brave-browser" #ブラウザ
+cask "drawio"
+cask "google-chrome" #ブラウザ
+cask "discord"
+cask "utm" #仮想環境
+cask "sourcetree" # Atlassian SourceTree
+cask "mactex-no-gui" # TeX Live (GUI アプリなし)
+cask "google-drive" # Google Drive
+cask "wireshark" # Graphical network analyzer and capture tool
+cask "microsoft-teams" # Meet, chat, call, and collaborate in just one place
+cask "DeepL" # Trains AIs to understand and translate texts
+# cask "fig" # Reimagine your terminal
+cask "iterm2" # Terminal emulator as alternative to Apple's Terminal app
+cask "qlstephen" # テキストの QuickLook プラグイン
+cask "latexit" # Graphical interface for LaTeX
+cask "docker"  # Docker
+cask "font-hackgen" # 白源フォント 全角スペースがわかる
+cask "ngrok" #localhostに外部からhttpsできるようにするやつ
+cask "adoptopenjdk" #plantumlの時に入れたやつ
+cask "adoptopenjdk8" #plantumlの時に入れたやつ
+cask "vivaldi" # ブラウザ
+cask "amazon-q" # figの後続
+cask "clipy"  # コピペサポート
+cask "slack"
+cask "warp"
+cask "raycast"
+
+### Homebrew
+brew "mas" # Mac App Store command-line interface
+brew "ansible" #utmの設定ソフト
+brew "python-tk"
+brew "git"        # Distributed revision control system
+brew "rustup" # Rust toolchain installer
+brew "rust-analyzer" # Experimental Rust compiler front-end for IDEs
+#brew install php@7.4
+#brew install rbenv ruby-build
+brew "go" # golang
+brew "mysql" # mysql
+brew "node"
+# graphvizとplantumlをインストール
+brew "graphviz"
+brew "plantuml"
+brew "redis"
+brew "iperf"
+brew "iperf3"
+brew "arp-scan"
+brew "cloudflared"
+brew "goreleaser"
+brew "postgresql"
+brew "golangci-lint"
+brew "nvm"
+brew "sqlite"
+
+### mas
+#mas "Microsoft Remote Desktop", id: 1295203466
