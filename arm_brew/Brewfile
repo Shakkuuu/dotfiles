@@ -34,6 +34,8 @@ cask "clipy"  # コピペサポート
 cask "slack"
 cask "warp"
 cask "raycast"
+cask "homerow"
+cask "karabiner-elements"
 
 ### Homebrew
 brew "mas" # Mac App Store command-line interface
