@@ -12,6 +12,10 @@
 
 `url = git@github.com:Shakkuuu/dotfiles.git`
 
+### terraform
+
+事前に`brew tap hashicorp/tap`を実行
+
 ### 設定
 
 - ポインタ
