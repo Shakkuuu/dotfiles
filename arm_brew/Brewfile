@@ -63,6 +63,7 @@ brew "golangci-lint"
 brew "nvm"
 brew "sqlite"
 brew "hashicorp/tap/terraform"
+brew "sqlc"
 
 ### mas
 #mas "Microsoft Remote Desktop", id: 1295203466
