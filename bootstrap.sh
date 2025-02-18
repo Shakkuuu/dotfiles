@@ -10,7 +10,7 @@ is_arm() { test "$UNAME" == "arm64"; }
 UNAME=`uname -m`
 
 # dotfiles の場所を設定
-DOTPATH=$HOME/dotfiles2
+DOTPATH=$HOME/dotfiles
 
 # このフォルダの取り扱い
 if [ ! -d "$DOTPATH" ]; then
