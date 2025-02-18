@@ -64,6 +64,8 @@ brew "nvm"
 brew "sqlite"
 brew "hashicorp/tap/terraform"
 brew "sqlc"
+brew "protobuf"
+brew "grpcurl"
 
 ### mas
 #mas "Microsoft Remote Desktop", id: 1295203466
