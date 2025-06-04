@@ -36,6 +36,8 @@ cask "warp"
 cask "raycast"
 cask "homerow"
 cask "karabiner-elements"
+cask "cursor"
+cask "android-studio"
 
 ### Homebrew
 brew "mas" # Mac App Store command-line interface
@@ -49,7 +51,6 @@ brew "rust-analyzer" # Experimental Rust compiler front-end for IDEs
 brew "go" # golang
 brew "mysql" # mysql
 brew "node"
-# graphvizとplantumlをインストール
 brew "graphviz"
 brew "plantuml"
 brew "redis"
@@ -66,6 +67,13 @@ brew "hashicorp/tap/terraform"
 brew "sqlc"
 brew "protobuf"
 brew "grpcurl"
+brew "buf"
+brew "colima"
+brew "kind"
+brew "kubectl"
+brew "helm"
+brew "k9s"
+brew "watch"
 
 ### mas
 #mas "Microsoft Remote Desktop", id: 1295203466
