@@ -74,6 +74,7 @@ brew "kubectl"
 brew "helm"
 brew "k9s"
 brew "watch"
+brew "lefthook"
 
 ### mas
 #mas "Microsoft Remote Desktop", id: 1295203466
